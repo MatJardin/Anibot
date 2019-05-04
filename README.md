@@ -1,2 +1,2 @@
 # Anibot
-Mon bot
+Mon bot codé en c# utilisant Anilist sur Discord.
