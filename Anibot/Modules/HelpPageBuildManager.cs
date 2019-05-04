@@ -5,6 +5,7 @@ using System.Linq;
 using Discord.Addons.Interactive;
 using static Discord.Addons.Interactive.PaginatedMessage;
 using Discord.Commands;
+using Discord;
 
 namespace Anibot.Modules
 {
@@ -15,7 +16,8 @@ namespace Anibot.Modules
             return new Page()
             {
                 Title = module.Name,
-                Description = string.Join(Environment.NewLine, commands.Select(x => x.Aliases[0]))
+                Description = string.Join(Environment.NewLine, commands.Select(x => x.Aliases[0])),
+                Color = Color.Magenta
             };
         }
     }
