@@ -6,7 +6,7 @@ using Discord.Addons.Interactive;
 using static Discord.Addons.Interactive.PaginatedMessage;
 using Discord.Commands;
 
-namespace Anibot.Modules.Help
+namespace Anibot.Modules
 {
     public static class HelpPageBuilder
     {

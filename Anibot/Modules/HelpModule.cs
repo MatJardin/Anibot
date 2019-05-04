@@ -9,7 +9,7 @@ using System.Linq;
 using MoreLinq;
 using SatiriquesBot.Attributes;
 
-namespace Anibot.Modules.Help
+namespace Anibot.Modules
 {
     [Group("help")]
     [Alias("h")]
